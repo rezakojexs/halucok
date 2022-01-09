@@ -32,9 +32,9 @@ exit 0
 fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
-wget https://raw.githubusercontent.com/rezakojexs/halucok/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/rezakojexs/fuck/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
-wget https://raw.githubusercontent.com/rezakokexs/halucok/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/rezakojexs/halucok/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/rezakojexs/halucok/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
 wget https://raw.githubusercontent.com/rezakojexs/halucok/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
