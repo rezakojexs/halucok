@@ -244,9 +244,9 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/ADITYAH2/halucok/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/rezakojexs/fuck/main/nginx.conf"
 mkdir -p /home/vps/public_html
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/ADITYAH2/halucok/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/rezakojexs/fuck/main/vps.conf"
 /etc/init.d/nginx restart
 
 # install badvpn
@@ -399,8 +399,8 @@ netfilter-persistent reload
 
 # download script
 cd /usr/bin
-wget -O add-host "https://raw.githubusercontent.com/rezakojexs/halucok/main/add-host.sh"
-wget -O about "https://raw.githubusercontent.com/rezakojexs/halucok/main/about.sh"
+wget -O add-host "https://raw.githubusercontent.com/rezakojexs/fuck/main/add-host.sh"
+wget -O about "https://raw.githubusercontent.com/rezakojexs/fuck/main/about.sh"
 wget -O menu "https://raw.githubusercontent.com/rezakojexs/halucok/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/rezakojexs/halucok/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/rezakojexs/halucok/main/trial.sh"
